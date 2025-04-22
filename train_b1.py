@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from models.efficientnetv2 import EfficientNetV2L
+from models.efficientnet_b1 import EfficientNetB1
 from utils.data_loader import get_data_loaders 
 from datetime import datetime
 import os
@@ -13,8 +13,8 @@ def log_message(message, log_file="logs/training.log"):
 
 def train():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model = EfficientNetV2L(num_classes=3).to(device)
-    model.load_pretrained('checkpoints/efficientnetv2_l_imagenet.pth')
+    model = EfficientNetB1(num_classes=3).to(device)
+    model.load_pretrained('checkpoints/efficientnet-b1.pth')
 
     train_loader, val_loader, _ = get_data_loaders("data", batch_size=32)
 
@@ -71,8 +71,8 @@ def train():
         print(log_msg)
         log_message(log_msg)
 
-    torch.save(model.state_dict(), "models/efficientnetv2_l.pth")
-    log_message("Training complete. Model saved to models/efficientnetv2_l.pth")
+    torch.save(model.state_dict(), "models/efficientnet_b1.pth")
+    log_message("Training complete. Model saved to models/efficientnet_b1.pth")
 
 if __name__ == '__main__':
     train()

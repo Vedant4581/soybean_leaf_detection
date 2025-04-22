@@ -24,9 +24,9 @@ def save_checkpoint(model, epoch, optimizer, loss, filepath):
     log_message(f"Checkpoint saved at {filepath} (Epoch {epoch})")
 
 def load_checkpoint(model, optimizer, filepath):
-    # Load model checkpoint
+    # Load model checkpoint 
     checkpoint = torch.load(filepath)
-    model.load_state_dict(checkpoint['model_state_dict'])
+    model.load_state_dict(checkpoint['model_state_dict']) 
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
     epoch = checkpoint['epoch']
     loss = checkpoint['loss']

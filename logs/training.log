@@ -11,3 +11,26 @@
 [2025-04-20 01:19:50] Epoch [9/10] - Train Loss: 0.0562, Train Acc: 99.42% | Val Loss: 0.0790, Val Acc: 97.25%
 [2025-04-20 01:25:23] Epoch [10/10] - Train Loss: 0.0476, Train Acc: 98.25% | Val Loss: 0.1065, Val Acc: 95.41%
 [2025-04-20 01:25:23] Training complete. Model saved to models/efficientnetv2_l.pth
+[2025-04-21 19:08:07] Epoch [1/10] - Train Loss: 0.9225, Train Acc: 54.97% | Val Loss: 1.1896, Val Acc: 33.03%
+[2025-04-21 19:13:14] Epoch [2/10] - Train Loss: 0.3893, Train Acc: 88.01% | Val Loss: 0.6695, Val Acc: 70.18%
+[2025-04-21 19:18:37] Epoch [3/10] - Train Loss: 0.1831, Train Acc: 93.57% | Val Loss: 0.2802, Val Acc: 88.99%
+[2025-04-21 19:23:43] Epoch [4/10] - Train Loss: 0.1069, Train Acc: 97.08% | Val Loss: 0.2389, Val Acc: 90.37%
+[2025-04-21 19:28:44] Epoch [5/10] - Train Loss: 0.1550, Train Acc: 97.95% | Val Loss: 0.2652, Val Acc: 89.91%
+[2025-04-21 19:33:45] Epoch [6/10] - Train Loss: 0.1568, Train Acc: 96.59% | Val Loss: 0.2757, Val Acc: 88.53%
+[2025-04-21 19:38:46] Epoch [7/10] - Train Loss: 0.0882, Train Acc: 97.27% | Val Loss: 0.2083, Val Acc: 92.66%
+[2025-04-21 19:43:54] Epoch [8/10] - Train Loss: 0.0591, Train Acc: 98.83% | Val Loss: 0.3219, Val Acc: 87.16%
+[2025-04-21 19:48:58] Epoch [9/10] - Train Loss: 0.1322, Train Acc: 96.10% | Val Loss: 0.2352, Val Acc: 91.28%
+[2025-04-21 19:53:58] Epoch [10/10] - Train Loss: 0.0922, Train Acc: 96.78% | Val Loss: 0.2258, Val Acc: 93.58%
+[2025-04-21 19:53:59] Training complete. Model saved to models/efficientnet-b0.pth
+[2025-04-21 23:45:08] Epoch [1/10] - Train Loss: 0.8411, Train Acc: 63.16% | Val Loss: 1.2923, Val Acc: 33.49%
+[2025-04-21 23:59:58] Epoch [1/10] - Train Loss: 0.8280, Train Acc: 62.96% | Val Loss: 1.2957, Val Acc: 33.03%
+[2025-04-22 00:06:52] Epoch [2/10] - Train Loss: 0.4369, Train Acc: 84.89% | Val Loss: 0.4870, Val Acc: 79.36%
+[2025-04-22 00:12:18] Epoch [3/10] - Train Loss: 0.2978, Train Acc: 91.91% | Val Loss: 0.3398, Val Acc: 84.40%
+[2025-04-22 00:17:31] Epoch [4/10] - Train Loss: 0.1720, Train Acc: 94.35% | Val Loss: 0.3352, Val Acc: 87.61%
+[2025-04-22 00:22:53] Epoch [5/10] - Train Loss: 0.1679, Train Acc: 95.61% | Val Loss: 0.5015, Val Acc: 84.40%
+[2025-04-22 00:35:15] Epoch [6/10] - Train Loss: 0.1423, Train Acc: 96.20% | Val Loss: 0.4397, Val Acc: 86.70%
+[2025-04-22 00:42:05] Epoch [7/10] - Train Loss: 0.1912, Train Acc: 96.88% | Val Loss: 0.2442, Val Acc: 89.91%
+[2025-04-22 00:50:24] Epoch [8/10] - Train Loss: 0.1126, Train Acc: 97.95% | Val Loss: 0.4750, Val Acc: 77.98%
+[2025-04-22 00:59:54] Epoch [9/10] - Train Loss: 0.1103, Train Acc: 98.44% | Val Loss: 0.3936, Val Acc: 86.24%
+[2025-04-22 01:13:40] Epoch [10/10] - Train Loss: 0.0915, Train Acc: 99.12% | Val Loss: 0.3699, Val Acc: 86.24%
+[2025-04-22 01:13:41] Training complete. Model saved to models/efficientnet_b1.pth
