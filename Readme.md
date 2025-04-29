@@ -62,18 +62,20 @@ Evaluate the model. You can do so by running the evaluate.py file.
 ### 6. Prediction
 For running the model on new images. Place the images in the prediction/test folder in the appropriate class. Then run the predict.py file. It will show the predicted class along with the true class.
 
-# 📊 Evaluation Metrics
+### 📊 Evaluation Metrics
 Each model is evaluated using Accuracy
 
-# 📈 Results
-| Model | Accuracy (%) | 
-| EfficientNet-V2 | 95.09 | 
-| EfficientNet-B0 | 92.86 | 
-| EfficientNet-B1 | 87.05 | 
-| EfficientNet-B2 | 86.61 | 
+### 📈 Results
+| Model             | Accuracy (%) |
+|--------------------|--------------|
+| EfficientNet-V2   | 95.09        |
+| EfficientNet-B0   | 92.86        |
+| EfficientNet-B1   | 87.05        |
+| EfficientNet-B2   | 86.61        |
+ 
 
 - (The above are testing accuracies.)
 
-# ✍️ Team Members
+### ✍️ Team Members
 - Yannam Yeswanth Reddy (220001082)
 - Vedant Upadhyay (220002081)
