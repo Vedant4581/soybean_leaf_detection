@@ -49,10 +49,10 @@ We then split the data into train, validation and test in the ratio 0.7 : 0.15 :
 In the checkpoints folder keep the pretrained models by imagenet for weight initialization:
 You can download the models from the links below:
 
--[EfficienNet-V2](https://github.com/hankyul2/EfficientNetV2-pytorch/releases/download/EfficientNetV2-pytorch-cifar/efficientnet_v2_l_cifar100.pth)
--[EfficienNet-B0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth)
--[EfficienNet-B1](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b1-f1951068.pth)
--[EfficienNet-B2](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b2-8bb594d6.pth)
+- [EfficienNet-V2](https://github.com/hankyul2/EfficientNetV2-pytorch/releases/download/EfficientNetV2-pytorch-cifar/efficientnet_v2_l_cifar100.pth)
+- [EfficienNet-B0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth)
+- [EfficienNet-B1](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b1-f1951068.pth)
+- [EfficienNet-B2](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b2-8bb594d6.pth)
 
 ### 4. Train the Model
 Choose the model to train. Then accordingly run the file train_{v2/b0/b1/b2}.py file. The final model will be saved in models folder.
