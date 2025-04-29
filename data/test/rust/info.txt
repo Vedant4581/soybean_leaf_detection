@@ -1,0 +1,1 @@
+Place the testing dataset images of rust in this folder

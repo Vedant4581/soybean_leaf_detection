@@ -14,7 +14,7 @@ def log_message(message, log_file="logs/training.log"):
 def train():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = EfficientNetB1(num_classes=3).to(device)
-    model.load_pretrained('checkpoints/efficientnet-b1.pth')
+    model.load_pretrained('checkpoints/efficientnet-b1.pth') #Name according to the name you save .pth file in the checkpoints folder
 
     train_loader, val_loader, _ = get_data_loaders("data", batch_size=32)
 

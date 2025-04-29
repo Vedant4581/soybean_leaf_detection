@@ -1,0 +1,1 @@
+Place the validation dataset images of bacterial blight in this folder

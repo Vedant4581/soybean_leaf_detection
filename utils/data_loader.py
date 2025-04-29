@@ -1,6 +1,24 @@
-
+import tensorflow as tf
+from tensorflow.keras import layers
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
+
+def effnet_preprocess(x):
+    """Preprocess input images manually for EfficientNet."""
+    x = tf.image.convert_image_dtype(x, tf.float32)  # Scale [0, 255] → [0, 1]
+    
+    # ImageNet mean and std (Torch mode)
+    mean = tf.constant([0.485, 0.456, 0.406], dtype=tf.float32)
+    std = tf.constant([0.229, 0.224, 0.225], dtype=tf.float32)
+    
+    x = (x - mean) / std 
+    data_augmentation = tf.keras.Sequential([
+        layers.RandomFlip('horizontal'),
+        layers.RandomRotation(0.2),
+        layers.RandomZoom(0.2),
+    ])
+    return x
+
 
 def get_data_loaders(data_dir, batch_size):
     transform = transforms.Compose([

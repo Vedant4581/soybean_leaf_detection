@@ -1,2 +1,6 @@
 *.pth
-data/
+data/**/*.jpg
+data/**/*.png
+data/**/*.jpeg
+data/**/*.gif
+data/**/*.bmp
